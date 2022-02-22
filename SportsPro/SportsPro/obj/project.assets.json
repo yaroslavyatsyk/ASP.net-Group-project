@@ -5432,31 +5432,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Yaroslav\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/Users/ellynfrancess/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Yaroslav\\Downloads\\Telegram Desktop\\ASP.net-Group-Assignment\\ASP.net-Group-Assignment\\SportsPro\\SportsPro\\SportsPro.csproj",
+      "projectUniqueName": "/Users/ellynfrancess/Downloads/ASP.net-Group-project/SportsPro/SportsPro/SportsPro.csproj",
       "projectName": "SportsPro",
-      "projectPath": "C:\\Users\\Yaroslav\\Downloads\\Telegram Desktop\\ASP.net-Group-Assignment\\ASP.net-Group-Assignment\\SportsPro\\SportsPro\\SportsPro.csproj",
-      "packagesPath": "C:\\Users\\Yaroslav\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Yaroslav\\Downloads\\Telegram Desktop\\ASP.net-Group-Assignment\\ASP.net-Group-Assignment\\SportsPro\\SportsPro\\obj\\",
+      "projectPath": "/Users/ellynfrancess/Downloads/ASP.net-Group-project/SportsPro/SportsPro/SportsPro.csproj",
+      "packagesPath": "/Users/ellynfrancess/.nuget/packages/",
+      "outputPath": "/Users/ellynfrancess/Downloads/ASP.net-Group-project/SportsPro/SportsPro/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Yaroslav\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/ellynfrancess/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -5508,7 +5501,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.200/RuntimeIdentifierGraph.json"
       }
     }
   }
