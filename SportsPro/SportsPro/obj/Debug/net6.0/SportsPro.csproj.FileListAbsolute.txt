@@ -432,3 +432,14 @@ C:/Users/Ostap/Source/Repos/ASP.net-Group-project/SportsPro/SportsPro/obj/Debug/
 /Users/ellynfrancess/Downloads/ASP.net-Group-project/SportsPro/SportsPro/obj/Debug/net6.0/SportsPro.pdb
 /Users/ellynfrancess/Downloads/ASP.net-Group-project/SportsPro/SportsPro/obj/Debug/net6.0/SportsPro.genruntimeconfig.cache
 /Users/ellynfrancess/Downloads/ASP.net-Group-project/SportsPro/SportsPro/obj/Debug/net6.0/ref/SportsPro.dll
+C:\Users\Yaroslav\source\repos\ASP.net-Group-project\SportsPro\SportsPro\obj\Debug\net6.0\SportsPro.csproj.AssemblyReference.cache
+C:\Users\Yaroslav\source\repos\ASP.net-Group-project\SportsPro\SportsPro\obj\Debug\net6.0\SportsPro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yaroslav\source\repos\ASP.net-Group-project\SportsPro\SportsPro\obj\Debug\net6.0\SportsPro.AssemblyInfoInputs.cache
+C:\Users\Yaroslav\source\repos\ASP.net-Group-project\SportsPro\SportsPro\obj\Debug\net6.0\SportsPro.AssemblyInfo.cs
+C:\Users\Yaroslav\source\repos\ASP.net-Group-project\SportsPro\SportsPro\obj\Debug\net6.0\SportsPro.csproj.CoreCompileInputs.cache
+C:\Users\Yaroslav\source\repos\ASP.net-Group-project\SportsPro\SportsPro\obj\Debug\net6.0\SportsPro.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Yaroslav\source\repos\ASP.net-Group-project\SportsPro\SportsPro\obj\Debug\net6.0\SportsPro.RazorAssemblyInfo.cache
+C:\Users\Yaroslav\source\repos\ASP.net-Group-project\SportsPro\SportsPro\obj\Debug\net6.0\SportsPro.RazorAssemblyInfo.cs
+C:\Users\Yaroslav\source\repos\ASP.net-Group-project\SportsPro\SportsPro\obj\Debug\net6.0\SportsPro.dll
+C:\Users\Yaroslav\source\repos\ASP.net-Group-project\SportsPro\SportsPro\obj\Debug\net6.0\ref\SportsPro.dll
+C:\Users\Yaroslav\source\repos\ASP.net-Group-project\SportsPro\SportsPro\obj\Debug\net6.0\SportsPro.pdb
