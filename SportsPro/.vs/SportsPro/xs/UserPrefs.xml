@@ -1,21 +1,13 @@
 ﻿<Properties StartupConfiguration="{93287263-5EA8-45FF-BCA7-292F9C3E03C3}|Default">
-  <MonoDevelop.Ide.ItemProperties.SportsPro PreferredExecutionTarget="/Applications/Brave Browser.app" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="SportsPro/Views/Shared/_Layout.cshtml">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SportsPro/Views/Home/Technician.cshtml">
     <Files>
-      <File FileName="SportsPro/appsettings.json" Line="16" Column="1" />
-      <File FileName="SportsPro/Controllers/HomeController.cs" Line="36" Column="1" />
-      <File FileName="SportsPro/Views/Shared/_Layout.cshtml" Line="9" Column="16" />
-      <File FileName="SportsPro/Models/Product.cs" Line="1" Column="1" />
-      <File FileName="SportsPro/Models/Technician.cs" Line="1" Column="1" />
-      <File FileName="SportsPro/Models/Incident.cs" Line="1" Column="1" />
-      <File FileName="SportsPro/Models/Customer.cs" Line="1" Column="1" />
-      <File FileName="SportsPro/Views/Home/Customer.cshtml" Line="1" Column="1" />
-      <File FileName="SportsPro/Views/Home/Registration.cshtml" Line="1" Column="1" />
-      <File FileName="SportsPro/Views/Home/Technician.cshtml" Line="1" Column="1" />
-      <File FileName="SportsPro/Views/Home/About.cshtml" Line="19" Column="7" />
+      <File FileName="SportsPro/Views/Home/Customer.cshtml" Line="17" Column="1" />
+      <File FileName="SportsPro/Views/Shared/_Layout.cshtml" Line="1" Column="1" />
+      <File FileName="SportsPro/Views/Home/Incident.cshtml" Line="19" Column="92" />
+      <File FileName="SportsPro/Views/Home/Product.cshtml" Line="19" Column="91" />
+      <File FileName="SportsPro/Views/Home/Technician.cshtml" Line="18" Column="90" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -27,7 +19,7 @@
               <Node name="Views" expanded="True">
                 <Node name="Home" expanded="True" />
                 <Node name="Shared" expanded="True">
-                  <Node name="_Layout.cshtml" expanded="True" selected="True" />
+                  <Node name="_Layout.cshtml" expanded="True" />
                 </Node>
               </Node>
               <Node name="wwwroot" expanded="True" />
@@ -40,7 +32,9 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.SportsPro PreferredExecutionTarget="/Applications/Brave Browser.app" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>
