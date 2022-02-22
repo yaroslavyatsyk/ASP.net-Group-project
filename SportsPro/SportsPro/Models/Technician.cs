@@ -8,13 +8,18 @@ namespace SportsPro.Models
         public int TechnicianId { get; set; }
 
         [Required]
-        public string? FullName { get; set; }
+        public string? FirstName { get; set; }
 
         [Required]
         public string? Email { get; set; }
 
         [Required]
         public string? Phone { get; set; }
+
+        [Required]
+        public string? LastName { get; set; }
+
+        public string Slug => FirstName?.Replace(' ', '-') + LastName?.Replace(' ', '-');
 
     }
 }

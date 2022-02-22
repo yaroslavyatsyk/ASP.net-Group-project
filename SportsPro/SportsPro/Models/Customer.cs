@@ -14,6 +14,7 @@ namespace SportsPro.Models
         public string? Country{ get; set; }
         public string? Email { get; set; }
         public string? Phone { get; set; }
-        
+
+        public string Slug => FirstName?.Replace(' ', '-') + LastName?.Replace(' ', '-');
     }
 }
