@@ -24,7 +24,6 @@ namespace SportsPro.Models
         public DateTime DateOpened { get; set; }
         public DateTime DateClosed { get; set; }
 
-        [Required]
         public int TechnicianId { get; set; }
         public Technician? Technician { get; set; }
 
