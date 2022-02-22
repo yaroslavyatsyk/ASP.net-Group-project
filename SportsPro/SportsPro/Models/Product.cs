@@ -6,7 +6,7 @@ namespace SportsPro.Models
 	public class Product
 	{
 		[Key]
-		public int ProductID { get; set; }
+		public int ProductId { get; set; }
 
 		[Required]
 		public string? ProductCode { get; set; }

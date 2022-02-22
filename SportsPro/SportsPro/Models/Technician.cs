@@ -5,7 +5,7 @@ namespace SportsPro.Models
     public class Technician
     {
         [Key]
-        public int TechnicianID { get; set; }
+        public int TechnicianId { get; set; }
 
         [Required]
         public string? FullName { get; set; }
