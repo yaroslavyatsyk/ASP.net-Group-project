@@ -5,19 +5,19 @@ namespace SportsPro.Models
     public class Incident
     {
         [Key]
-        public int IncidentID { get; set; } 
+        public int IncidentId { get; set; } 
         [Required]
         public string? Title { get; set; }   
 
         [Required]
 
-        public int CustomerID { get; set; }
+        public int CustomerId { get; set; }
 
         [Required]
-        public Customer? customer { get; set; }
+        public Customer? Customer { get; set; }
 
         [Required]
-        public int ProductID { get; set; }
+        public int ProductId { get; set; }
 
         public Product? Product { get; set; }
 
@@ -25,7 +25,7 @@ namespace SportsPro.Models
         public DateTime DateClosed { get; set; }
 
         [Required]
-        public int TechnicianID { get; set; }
+        public int TechnicianId { get; set; }
         public Technician? Technician { get; set; }
 
         public string? Description { get; set; }
