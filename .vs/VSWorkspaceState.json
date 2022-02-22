@@ -3,8 +3,11 @@
     "",
     "\\SportsPro",
     "\\SportsPro\\SportsPro",
-    "\\SportsPro\\SportsPro\\Models"
+    "\\SportsPro\\SportsPro\\Models",
+    "\\SportsPro\\SportsPro\\Views",
+    "\\SportsPro\\SportsPro\\Views\\Home",
+    "\\SportsPro\\SportsPro\\Views\\Shared"
   ],
-  "SelectedNode": "\\SportsPro\\SportsPro\\Models\\Technician.cs",
+  "SelectedNode": "\\SportsPro\\SportsPro.sln",
   "PreviewInSolutionExplorer": false
 }
