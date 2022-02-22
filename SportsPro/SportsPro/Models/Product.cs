@@ -15,6 +15,8 @@ namespace SportsPro.Models
 		public string? Name { get; set; }
 
 		public DateTime ReleaseDate { get; set; }
+		// lets go
+
 	}
 }
 
