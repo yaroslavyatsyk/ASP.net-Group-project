@@ -5,6 +5,11 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<SportContext>(options =>
+{
+    options.UseSqlServer(builder.Configuration.GetConnectionString("SportContext"));
+}
+);
 
 var app = builder.Build();
 
@@ -16,11 +21,7 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
-builder.Services.AddDbContext<SportContext>(options =>
-{
-    options.UseSqlServer(builder.Configuration.GetConnectionString("SportContext"));
-}
-);
+
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
