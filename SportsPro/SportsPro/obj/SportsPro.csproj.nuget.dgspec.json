@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ellynfrancess/Downloads/ASP.net-Group-project/SportsPro/SportsPro/SportsPro.csproj": {}
+    "C:\\Users\\Ostap\\Source\\Repos\\ASP.net-Group-project\\SportsPro\\SportsPro\\SportsPro.csproj": {}
   },
   "projects": {
-    "/Users/ellynfrancess/Downloads/ASP.net-Group-project/SportsPro/SportsPro/SportsPro.csproj": {
+    "C:\\Users\\Ostap\\Source\\Repos\\ASP.net-Group-project\\SportsPro\\SportsPro\\SportsPro.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ellynfrancess/Downloads/ASP.net-Group-project/SportsPro/SportsPro/SportsPro.csproj",
+        "projectUniqueName": "C:\\Users\\Ostap\\Source\\Repos\\ASP.net-Group-project\\SportsPro\\SportsPro\\SportsPro.csproj",
         "projectName": "SportsPro",
-        "projectPath": "/Users/ellynfrancess/Downloads/ASP.net-Group-project/SportsPro/SportsPro/SportsPro.csproj",
-        "packagesPath": "/Users/ellynfrancess/.nuget/packages/",
-        "outputPath": "/Users/ellynfrancess/Downloads/ASP.net-Group-project/SportsPro/SportsPro/obj/",
+        "projectPath": "C:\\Users\\Ostap\\Source\\Repos\\ASP.net-Group-project\\SportsPro\\SportsPro\\SportsPro.csproj",
+        "packagesPath": "C:\\Users\\Ostap\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ostap\\Source\\Repos\\ASP.net-Group-project\\SportsPro\\SportsPro\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/ellynfrancess/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Ostap\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -71,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.200/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
