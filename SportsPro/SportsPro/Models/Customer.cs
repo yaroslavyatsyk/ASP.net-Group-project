@@ -7,28 +7,28 @@ namespace SportsPro.Models
         [Key]
         public int CustomerId { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Please enter first name.")]
         public string? FirstName { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Please enter last name.")]
         public string? LastName { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Please enter city.")]
         public string? City { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Please enter state.")]
         public string? State { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Please enter postal code.")]
         public string? PostalCode { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Please enter country.")]
         public string? Country{ get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Please enter email.")]
         public string? Email { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Please enter phone.")]
         public string? Phone { get; set; }
 
         public string Slug => FirstName?.Replace(' ', '-') + LastName?.Replace(' ', '-');

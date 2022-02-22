@@ -8,10 +8,10 @@ namespace SportsPro.Models
 		[Key]
 		public int ProductId { get; set; }
 
-		[Required]
+		[Required(ErrorMessage = "Please enter product code.")]
 		public string? ProductCode { get; set; }
 
-		[Required]
+		[Required(ErrorMessage = "Please enter name.")]
 		public string? Name { get; set; }
 
 		public DateTime ReleaseDate { get; set; }

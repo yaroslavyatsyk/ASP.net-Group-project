@@ -1,13 +1,16 @@
 ﻿<Properties StartupConfiguration="{93287263-5EA8-45FF-BCA7-292F9C3E03C3}|Default">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="SportsPro/Views/Home/Technician.cshtml">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SportsPro/Models/Customer.cs">
     <Files>
-      <File FileName="SportsPro/Views/Home/Customer.cshtml" Line="17" Column="1" />
-      <File FileName="SportsPro/Views/Shared/_Layout.cshtml" Line="1" Column="1" />
-      <File FileName="SportsPro/Views/Home/Incident.cshtml" Line="19" Column="92" />
-      <File FileName="SportsPro/Views/Home/Product.cshtml" Line="19" Column="91" />
-      <File FileName="SportsPro/Views/Home/Technician.cshtml" Line="18" Column="90" />
+      <File FileName="SportsPro/Views/Home/Customer.cshtml" Line="18" Column="92" />
+      <File FileName="SportsPro/Views/Home/Incident.cshtml" Line="18" Column="66" />
+      <File FileName="SportsPro/Views/Home/Product.cshtml" Line="18" Column="66" />
+      <File FileName="SportsPro/Views/Home/Technician.cshtml" Line="17" Column="1" />
+      <File FileName="SportsPro/Controllers/HomeController.cs" Line="1" Column="1" />
+      <File FileName="SportsPro/Models/Customer.cs" Line="1" Column="1" />
+      <File FileName="SportsPro/Models/Incident.cs" Line="1" Column="1" />
+      <File FileName="SportsPro/Models/Product.cs" Line="1" Column="1" />
+      <File FileName="SportsPro/Models/SportContext.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,13 +18,10 @@
           <Node name="SportsPro" expanded="True">
             <Node name="SportsPro" expanded="True">
               <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="Home" expanded="True" />
-                <Node name="Shared" expanded="True">
-                  <Node name="_Layout.cshtml" expanded="True" />
-                </Node>
+              <Node name="Models" expanded="True">
+                <Node name="Customer.cs" selected="True" />
               </Node>
+              <Node name="Views" expanded="True" />
               <Node name="wwwroot" expanded="True" />
             </Node>
           </Node>
@@ -33,7 +33,8 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.SportsPro PreferredExecutionTarget="/Applications/Brave Browser.app" />
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

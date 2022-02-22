@@ -5,12 +5,12 @@ namespace SportsPro.Models
     public class Incident
     {
         [Key]
-        public int IncidentId { get; set; } 
+        public int IncidentId { get; set; }
+
         [Required]
         public string? Title { get; set; }   
 
         [Required]
-
         public int CustomerId { get; set; }
 
         [Required]
