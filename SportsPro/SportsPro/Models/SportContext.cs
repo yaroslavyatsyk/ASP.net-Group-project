@@ -15,9 +15,5 @@ namespace SportsPro.Models
 
         public DbSet<Incident> Incidents { get; set; }
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            // Finish adding data
-        }
     }
 }
