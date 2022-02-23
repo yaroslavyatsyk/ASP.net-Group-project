@@ -1,15 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\SportsPro",
-    "\\SportsPro\\SportsPro",
-    "\\SportsPro\\SportsPro\\Controllers",
-    "\\SportsPro\\SportsPro\\Models",
-    "\\SportsPro\\SportsPro\\Views",
-    "\\SportsPro\\SportsPro\\Views\\Customers",
-    "\\SportsPro\\SportsPro\\Views\\Home",
-    "\\SportsPro\\SportsPro\\Views\\Shared"
+    ""
   ],
-  "SelectedNode": "\\SportsPro\\SportsPro\\Views\\Customers\\Index.cshtml",
+  "SelectedNode": "\\SportsPro.sln",
   "PreviewInSolutionExplorer": false
 }
