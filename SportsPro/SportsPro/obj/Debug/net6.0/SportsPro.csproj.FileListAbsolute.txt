@@ -897,3 +897,4 @@ C:\Users\Yaroslav\Source\Repos\ASP.net-Group-project\SportsPro\SportsPro\obj\Deb
 C:\Users\Yaroslav\Source\Repos\ASP.net-Group-project\SportsPro\SportsPro\obj\Debug\net6.0\ref\SportsPro.dll
 C:\Users\Yaroslav\Source\Repos\ASP.net-Group-project\SportsPro\SportsPro\obj\Debug\net6.0\SportsPro.pdb
 C:\Users\Yaroslav\Source\Repos\ASP.net-Group-project\SportsPro\SportsPro\obj\Debug\net6.0\SportsPro.genruntimeconfig.cache
+C:\Users\Yaroslav\Source\Repos\ASP.net-Group-project\SportsPro\SportsPro\obj\Debug\net6.0\SportsPro.csproj.AssemblyReference.cache
