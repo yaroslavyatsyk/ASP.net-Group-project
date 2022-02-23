@@ -3,11 +3,12 @@
     "",
     "\\SportsPro",
     "\\SportsPro\\SportsPro",
+    "\\SportsPro\\SportsPro\\Controllers",
     "\\SportsPro\\SportsPro\\Models",
     "\\SportsPro\\SportsPro\\Views",
     "\\SportsPro\\SportsPro\\Views\\Home",
     "\\SportsPro\\SportsPro\\Views\\Shared"
   ],
-  "SelectedNode": "\\SportsPro\\SportsPro\\Views\\Shared\\_Layout.cshtml",
+  "SelectedNode": "\\SportsPro\\SportsPro\\Controllers\\CustomersController.cs",
   "PreviewInSolutionExplorer": false
 }
