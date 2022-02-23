@@ -28,7 +28,7 @@ namespace SportsPro.Models
         [Required(ErrorMessage = "Please enter email.")]
         public string? Email { get; set; }
 
-        [Required(ErrorMessage = "Please enter phone.")]
+        [Required(ErrorMessage = "Please enter the phone number.")]
         public string? Phone { get; set; }
 
         public string FullName => FirstName?.Replace(' ', '-') + " " + LastName?.Replace(' ', '-');
