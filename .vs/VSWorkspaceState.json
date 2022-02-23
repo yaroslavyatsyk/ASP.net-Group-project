@@ -6,9 +6,10 @@
     "\\SportsPro\\SportsPro\\Controllers",
     "\\SportsPro\\SportsPro\\Models",
     "\\SportsPro\\SportsPro\\Views",
+    "\\SportsPro\\SportsPro\\Views\\Customers",
     "\\SportsPro\\SportsPro\\Views\\Home",
     "\\SportsPro\\SportsPro\\Views\\Shared"
   ],
-  "SelectedNode": "\\SportsPro\\SportsPro\\Controllers\\CustomersController.cs",
+  "SelectedNode": "\\SportsPro\\SportsPro\\Views\\Customers\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }
