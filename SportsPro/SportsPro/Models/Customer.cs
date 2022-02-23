@@ -31,6 +31,6 @@ namespace SportsPro.Models
         [Required(ErrorMessage = "Please enter phone.")]
         public string? Phone { get; set; }
 
-        public string Slug => FirstName?.Replace(' ', '-') + LastName?.Replace(' ', '-');
+        public string FullName => FirstName?.Replace(' ', '-') + " " + LastName?.Replace(' ', '-');
     }
 }
