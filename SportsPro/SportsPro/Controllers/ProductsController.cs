@@ -54,11 +54,10 @@ namespace SportsPro.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ProductId,ProductCode,Name,ReleaseDate")] Product product)
+        public async Task<IActionResult> Create([Bind("ProductId,ProductCode,Name,ReleaseDate,Price")] Product product)
         {
             if (ModelState.IsValid)
             {
-                product.ReleaseDate = DateTime.Now;
                 _context.Add(product);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -87,7 +86,7 @@ namespace SportsPro.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ProductId,ProductCode,Name,ReleaseDate")] Product product)
+        public async Task<IActionResult> Edit(int id, [Bind("ProductId,ProductCode,Name,ReleaseDate,Price")] Product product)
         {
             if (id != product.ProductId)
             {

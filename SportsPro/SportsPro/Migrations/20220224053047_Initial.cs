@@ -37,7 +37,8 @@ namespace SportsPro.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     ProductCode = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    ReleaseDate = table.Column<DateTime>(type: "datetime2", nullable: false)
+                    ReleaseDate = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    Price = table.Column<double>(type: "float", nullable: false)
                 },
                 constraints: table =>
                 {

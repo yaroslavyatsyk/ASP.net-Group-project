@@ -16,6 +16,9 @@ namespace SportsPro.Models
 
 		public DateTime ReleaseDate { get; set; }
 		
+		[Required(ErrorMessage = "Please enter the price")]
+		public double Price { get; set; }
+		
 
 	}
 }

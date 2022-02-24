@@ -121,6 +121,9 @@ namespace SportsPro.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<double>("Price")
+                        .HasColumnType("float");
+
                     b.Property<string>("ProductCode")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
