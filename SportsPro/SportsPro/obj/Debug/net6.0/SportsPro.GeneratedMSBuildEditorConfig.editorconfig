@@ -8,11 +8,11 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SportsPro
 build_property.RootNamespace = SportsPro
-build_property.ProjectDir = C:\Users\Yaroslav\source\repos\ASP.net-Group-project\SportsPro\SportsPro\
+build_property.ProjectDir = C:\Users\Yaroslav\Source\Repos\ASP.net-Group-project\SportsPro\SportsPro\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Yaroslav\source\repos\ASP.net-Group-project\SportsPro\SportsPro
+build_property.MSBuildProjectDirectory = C:\Users\Yaroslav\Source\Repos\ASP.net-Group-project\SportsPro\SportsPro
 build_property._RazorSourceGeneratorDebug = 
 
 [C:/Users/Yaroslav/Source/Repos/ASP.net-Group-project/SportsPro/SportsPro/Views/Customers/Create.cshtml]
@@ -41,6 +41,22 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Yaroslav/Source/Repos/ASP.net-Group-project/SportsPro/SportsPro/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Yaroslav/Source/Repos/ASP.net-Group-project/SportsPro/SportsPro/Views/Incidents/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5jaWRlbnRzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Yaroslav/Source/Repos/ASP.net-Group-project/SportsPro/SportsPro/Views/Incidents/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5jaWRlbnRzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Yaroslav/Source/Repos/ASP.net-Group-project/SportsPro/SportsPro/Views/Incidents/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5jaWRlbnRzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Yaroslav/Source/Repos/ASP.net-Group-project/SportsPro/SportsPro/Views/Incidents/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5jaWRlbnRzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Yaroslav/Source/Repos/ASP.net-Group-project/SportsPro/SportsPro/Views/Products/Create.cshtml]

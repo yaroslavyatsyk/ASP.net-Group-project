@@ -6,8 +6,9 @@
     "\\SportsPro\\SportsPro\\Controllers",
     "\\SportsPro\\SportsPro\\Models",
     "\\SportsPro\\SportsPro\\Views",
-    "\\SportsPro\\SportsPro\\Views\\Customers"
+    "\\SportsPro\\SportsPro\\Views\\Customers",
+    "\\SportsPro\\SportsPro\\Views\\Products"
   ],
-  "SelectedNode": "\\SportsPro\\SportsPro\\Controllers\\HomeController.cs",
+  "SelectedNode": "\\SportsPro\\SportsPro\\Views\\Products\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }
