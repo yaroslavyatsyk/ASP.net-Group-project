@@ -7,8 +7,9 @@
     "\\SportsPro\\SportsPro\\Models",
     "\\SportsPro\\SportsPro\\Views",
     "\\SportsPro\\SportsPro\\Views\\Customers",
-    "\\SportsPro\\SportsPro\\Views\\Products"
+    "\\SportsPro\\SportsPro\\Views\\Products",
+    "\\SportsPro\\SportsPro\\Views\\Shared"
   ],
-  "SelectedNode": "\\SportsPro\\SportsPro\\Views\\Products\\Index.cshtml",
+  "SelectedNode": "\\SportsPro\\SportsPro\\Views\\Shared\\_Layout.cshtml",
   "PreviewInSolutionExplorer": false
 }
