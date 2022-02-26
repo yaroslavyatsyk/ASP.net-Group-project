@@ -8,8 +8,9 @@
     "\\SportsPro\\SportsPro\\Views",
     "\\SportsPro\\SportsPro\\Views\\Customers",
     "\\SportsPro\\SportsPro\\Views\\Products",
-    "\\SportsPro\\SportsPro\\Views\\Shared"
+    "\\SportsPro\\SportsPro\\Views\\Shared",
+    "\\SportsPro\\SportsPro\\Views\\Technicians"
   ],
-  "SelectedNode": "\\SportsPro\\SportsPro\\Views\\Shared\\_Layout.cshtml",
+  "SelectedNode": "\\SportsPro\\SportsPro.sln",
   "PreviewInSolutionExplorer": false
 }

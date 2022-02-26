@@ -8,113 +8,113 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SportsPro
 build_property.RootNamespace = SportsPro
-build_property.ProjectDir = /Users/ellynfrancess/Downloads/ASP.net-Group-project/SportsPro/SportsPro/
+build_property.ProjectDir = C:\Users\Yaroslav\source\repos\ASP.net-Group-project\SportsPro\SportsPro\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/ellynfrancess/Downloads/ASP.net-Group-project/SportsPro/SportsPro
+build_property.MSBuildProjectDirectory = C:\Users\Yaroslav\source\repos\ASP.net-Group-project\SportsPro\SportsPro
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/ellynfrancess/Downloads/ASP.net-Group-project/SportsPro/SportsPro/Views/Customers/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXJzL0NyZWF0ZS5jc2h0bWw=
+[C:/Users/Yaroslav/source/repos/ASP.net-Group-project/SportsPro/SportsPro/Views/Customers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ellynfrancess/Downloads/ASP.net-Group-project/SportsPro/SportsPro/Views/Customers/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXJzL0RlbGV0ZS5jc2h0bWw=
+[C:/Users/Yaroslav/source/repos/ASP.net-Group-project/SportsPro/SportsPro/Views/Customers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ellynfrancess/Downloads/ASP.net-Group-project/SportsPro/SportsPro/Views/Customers/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXJzL0RldGFpbHMuY3NodG1s
+[C:/Users/Yaroslav/source/repos/ASP.net-Group-project/SportsPro/SportsPro/Views/Customers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ellynfrancess/Downloads/ASP.net-Group-project/SportsPro/SportsPro/Views/Customers/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXJzL0VkaXQuY3NodG1s
+[C:/Users/Yaroslav/source/repos/ASP.net-Group-project/SportsPro/SportsPro/Views/Customers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ellynfrancess/Downloads/ASP.net-Group-project/SportsPro/SportsPro/Views/Customers/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXJzL0luZGV4LmNzaHRtbA==
+[C:/Users/Yaroslav/source/repos/ASP.net-Group-project/SportsPro/SportsPro/Views/Customers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ellynfrancess/Downloads/ASP.net-Group-project/SportsPro/SportsPro/Views/Home/About.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9BYm91dC5jc2h0bWw=
+[C:/Users/Yaroslav/source/repos/ASP.net-Group-project/SportsPro/SportsPro/Views/Home/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ellynfrancess/Downloads/ASP.net-Group-project/SportsPro/SportsPro/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+[C:/Users/Yaroslav/source/repos/ASP.net-Group-project/SportsPro/SportsPro/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ellynfrancess/Downloads/ASP.net-Group-project/SportsPro/SportsPro/Views/Incidents/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSW5jaWRlbnRzL0NyZWF0ZS5jc2h0bWw=
+[C:/Users/Yaroslav/source/repos/ASP.net-Group-project/SportsPro/SportsPro/Views/Incidents/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5jaWRlbnRzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ellynfrancess/Downloads/ASP.net-Group-project/SportsPro/SportsPro/Views/Incidents/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSW5jaWRlbnRzL0RlbGV0ZS5jc2h0bWw=
+[C:/Users/Yaroslav/source/repos/ASP.net-Group-project/SportsPro/SportsPro/Views/Incidents/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5jaWRlbnRzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ellynfrancess/Downloads/ASP.net-Group-project/SportsPro/SportsPro/Views/Incidents/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSW5jaWRlbnRzL0RldGFpbHMuY3NodG1s
+[C:/Users/Yaroslav/source/repos/ASP.net-Group-project/SportsPro/SportsPro/Views/Incidents/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5jaWRlbnRzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ellynfrancess/Downloads/ASP.net-Group-project/SportsPro/SportsPro/Views/Incidents/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSW5jaWRlbnRzL0VkaXQuY3NodG1s
+[C:/Users/Yaroslav/source/repos/ASP.net-Group-project/SportsPro/SportsPro/Views/Incidents/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5jaWRlbnRzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ellynfrancess/Downloads/ASP.net-Group-project/SportsPro/SportsPro/Views/Incidents/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSW5jaWRlbnRzL0luZGV4LmNzaHRtbA==
+[C:/Users/Yaroslav/source/repos/ASP.net-Group-project/SportsPro/SportsPro/Views/Incidents/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5jaWRlbnRzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ellynfrancess/Downloads/ASP.net-Group-project/SportsPro/SportsPro/Views/Products/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdHMvQ3JlYXRlLmNzaHRtbA==
+[C:/Users/Yaroslav/source/repos/ASP.net-Group-project/SportsPro/SportsPro/Views/Products/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ellynfrancess/Downloads/ASP.net-Group-project/SportsPro/SportsPro/Views/Products/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdHMvRGVsZXRlLmNzaHRtbA==
+[C:/Users/Yaroslav/source/repos/ASP.net-Group-project/SportsPro/SportsPro/Views/Products/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ellynfrancess/Downloads/ASP.net-Group-project/SportsPro/SportsPro/Views/Products/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdHMvRGV0YWlscy5jc2h0bWw=
+[C:/Users/Yaroslav/source/repos/ASP.net-Group-project/SportsPro/SportsPro/Views/Products/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ellynfrancess/Downloads/ASP.net-Group-project/SportsPro/SportsPro/Views/Products/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdHMvRWRpdC5jc2h0bWw=
+[C:/Users/Yaroslav/source/repos/ASP.net-Group-project/SportsPro/SportsPro/Views/Products/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ellynfrancess/Downloads/ASP.net-Group-project/SportsPro/SportsPro/Views/Products/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdHMvSW5kZXguY3NodG1s
+[C:/Users/Yaroslav/source/repos/ASP.net-Group-project/SportsPro/SportsPro/Views/Products/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ellynfrancess/Downloads/ASP.net-Group-project/SportsPro/SportsPro/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[C:/Users/Yaroslav/source/repos/ASP.net-Group-project/SportsPro/SportsPro/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ellynfrancess/Downloads/ASP.net-Group-project/SportsPro/SportsPro/Views/Technicians/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGVjaG5pY2lhbnMvQ3JlYXRlLmNzaHRtbA==
+[C:/Users/Yaroslav/source/repos/ASP.net-Group-project/SportsPro/SportsPro/Views/Technicians/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVjaG5pY2lhbnNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ellynfrancess/Downloads/ASP.net-Group-project/SportsPro/SportsPro/Views/Technicians/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGVjaG5pY2lhbnMvRGVsZXRlLmNzaHRtbA==
+[C:/Users/Yaroslav/source/repos/ASP.net-Group-project/SportsPro/SportsPro/Views/Technicians/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVjaG5pY2lhbnNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ellynfrancess/Downloads/ASP.net-Group-project/SportsPro/SportsPro/Views/Technicians/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGVjaG5pY2lhbnMvRGV0YWlscy5jc2h0bWw=
+[C:/Users/Yaroslav/source/repos/ASP.net-Group-project/SportsPro/SportsPro/Views/Technicians/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVjaG5pY2lhbnNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ellynfrancess/Downloads/ASP.net-Group-project/SportsPro/SportsPro/Views/Technicians/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGVjaG5pY2lhbnMvRWRpdC5jc2h0bWw=
+[C:/Users/Yaroslav/source/repos/ASP.net-Group-project/SportsPro/SportsPro/Views/Technicians/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVjaG5pY2lhbnNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ellynfrancess/Downloads/ASP.net-Group-project/SportsPro/SportsPro/Views/Technicians/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGVjaG5pY2lhbnMvSW5kZXguY3NodG1s
+[C:/Users/Yaroslav/source/repos/ASP.net-Group-project/SportsPro/SportsPro/Views/Technicians/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVjaG5pY2lhbnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ellynfrancess/Downloads/ASP.net-Group-project/SportsPro/SportsPro/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[C:/Users/Yaroslav/source/repos/ASP.net-Group-project/SportsPro/SportsPro/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ellynfrancess/Downloads/ASP.net-Group-project/SportsPro/SportsPro/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+[C:/Users/Yaroslav/source/repos/ASP.net-Group-project/SportsPro/SportsPro/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/ellynfrancess/Downloads/ASP.net-Group-project/SportsPro/SportsPro/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-dn6sjq1dhy
+[C:/Users/Yaroslav/source/repos/ASP.net-Group-project/SportsPro/SportsPro/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-m8wkwk2ttb
