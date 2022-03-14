@@ -37,7 +37,6 @@ namespace SportsPro.Models
         
         public string? Email { get; set; }
 
-        [Required(ErrorMessage = "A phone number is required.")]
         [DataType(DataType.PhoneNumber)]
         [RegularExpression(@"^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$", ErrorMessage = "Not a valid phone number")]
 
