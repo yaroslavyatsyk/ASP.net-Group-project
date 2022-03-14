@@ -37,8 +37,10 @@ namespace SportsPro.Models
         
         public string? Email { get; set; }
 
+        [Required(ErrorMessage = "A phone number is required.")]
         [DataType(DataType.PhoneNumber)]
-        [Phone]
+        [RegularExpression(@"^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$", ErrorMessage = "Not a valid phone number")]
+
         public string? Phone { get; set; }
 
         public string FullName => FirstName?.Replace(' ', '-') + " " + LastName?.Replace(' ', '-');
