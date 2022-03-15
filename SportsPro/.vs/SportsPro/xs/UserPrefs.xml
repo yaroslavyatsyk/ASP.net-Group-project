@@ -1,27 +1,27 @@
 ﻿<Properties StartupConfiguration="{93287263-5EA8-45FF-BCA7-292F9C3E03C3}|Default">
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="SportsPro/Models/Customer.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SportsPro/Views/Home/About.cshtml">
     <Files>
-      <File FileName="SportsPro/Views/Home/Customer.cshtml" Line="18" Column="92" />
-      <File FileName="SportsPro/Views/Home/Incident.cshtml" Line="18" Column="66" />
-      <File FileName="SportsPro/Views/Home/Product.cshtml" Line="18" Column="66" />
-      <File FileName="SportsPro/Views/Home/Technician.cshtml" Line="17" Column="1" />
       <File FileName="SportsPro/Controllers/HomeController.cs" Line="1" Column="1" />
       <File FileName="SportsPro/Models/Customer.cs" Line="1" Column="1" />
       <File FileName="SportsPro/Models/Incident.cs" Line="1" Column="1" />
       <File FileName="SportsPro/Models/Product.cs" Line="1" Column="1" />
       <File FileName="SportsPro/Models/SportContext.cs" Line="1" Column="1" />
+      <File FileName="SportsPro/Views/Incidents/Create.cshtml" Line="1" Column="1" />
+      <File FileName="SportsPro/Views/Incidents/Index.cshtml" Line="1" Column="1" />
+      <File FileName="SportsPro/appsettings.json" Line="10" Column="88" />
+      <File FileName="SportsPro/Views/Home/About.cshtml" Line="32" Column="7" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="SportsPro" expanded="True">
             <Node name="SportsPro" expanded="True">
+              <Node name="Dependencies" expanded="True" />
               <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True">
-                <Node name="Customer.cs" selected="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
               </Node>
-              <Node name="Views" expanded="True" />
               <Node name="wwwroot" expanded="True" />
             </Node>
           </Node>
@@ -32,10 +32,11 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.SportsPro PreferredExecutionTarget="/Applications/Brave Browser.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.SportsPro PreferredExecutionTarget="/Applications/Brave Browser.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
