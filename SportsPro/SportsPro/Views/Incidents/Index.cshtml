@@ -1,72 +1,142 @@
-﻿@model IEnumerable<SportsPro.Models.Incident>
+﻿@model SportsPro.Models.Incident;
 
 @{
-    ViewData["Title"] = "Index";
+    var title = ViewData["Title"] as string;
 }
 
-<h1>Index</h1>
+<hr />
+<div class="row">
+    <div class="col">
+        <form asp-action=@ViewData["Title"]>
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            @if(title == "Edit")
+            {
+                <input type="hidden" asp-for="IncidentId" />
+            }
 
-<p>
-    <a class="btn btn-primary" asp-action="Create">Add Incident</a>
-</p>
-<table class="table table-bordered">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Title)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Customer)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Product)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.DateOpened)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.DateClosed)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Technician)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Description)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model)
-        {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Title)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Customer)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Product)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.DateOpened)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.DateClosed)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Technician)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Description)
-                </td>
-                <td>
-                    <a class="btn btn-primary" asp-action="Edit" asp-route-id="@item.IncidentId">Edit</a> |
-                    <a class="btn btn-info" asp-action="Details" asp-route-id="@item.IncidentId">Details</a> |
-                    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.IncidentId">Delete</a>
-                </td>
-            </tr>
-        }
-    </tbody>
-</table>
+            <br />
+            <div class="form-group row">
+                <label asp-for="Customer" class="col-sm-2 col-form-label">Client Name:</label>
+                @if(title == "Create")
+                {
+                    <div class="col-sm-10">
+                        <select asp-for="CustomerId" class="form-control" asp-items="@ViewBag.CustomerId">
+                  
+                        </select>
+                        <span asp-validation-for="Customer" class="text-danger"></span>
+                    </div>
+                }
+                else
+                {
+                    <div class="col-sm-10">
+                        <input asp-for="CustomerId" class="form-control" asp-items="@ViewBag.CustomerId" />
+                        <span asp-validation-for="Customer" class="text-danger"></span>
+                    </div>
+                }
+            </div>
+
+            <br />
+            <div class="form-group row">
+                <label asp-for="Product" class="col-sm-2 col-form-label">Product:</label>
+                @if(title == "Create")
+                {
+                    <div class="col-sm-10">
+                        <select asp-for="ProductId" class="form-control" asp-items="@ViewBag.ProductId"></select>
+                        <span asp-validation-for="Product" class="text-danger"></span>
+                    </div>
+                }
+                else
+                {
+                    <div class="col-sm-10">
+                        <input asp-for="ProductId" class="form-control" asp-items="@ViewBag.ProductId" />
+                        <span asp-validation-for="Product" class="text-danger"></span>
+                    </div>
+                }
+            </div>
+
+            <br />
+            <div class="form-group row">
+                <label asp-for="Title" class="col-sm-2 col-form-label">Title:</label>
+                <div class="col-sm-10">
+                    <input asp-for="Title" class="form-control" />
+                    <span asp-validation-for="Title" class="text-danger"></span>
+                </div>
+            </div>
+
+            <br />
+            <div class="form-group row">
+                <label asp-for="Description" class="col-sm-2 col-form-label">Description:</label>
+                <div class="col-sm-10">
+                    <input asp-for="Description" class="form-control" />
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+            </div>
+
+            <br />
+            <div class="form-group row">
+                <label asp-for="Technician" class="col-sm-2 col-form-label">Technician:</label>
+                @if(title == "Create")
+                {
+                    <div class="col-sm-10">
+                        <select asp-for="TechnicianId" class="form-control" asp-items="@ViewBag.TechnicianId"></select>
+                        <span asp-validation-for="Technician" class="text-danger"></span>
+                    </div>
+                }
+                else
+                {
+                    <div class="col-sm-10">
+                        <input asp-for="TechnicianId" class="form-control" asp-items="@ViewBag.TechnicianId" />
+                        <span asp-validation-for="Technician" class="text-danger"></span>
+                    </div>
+                }
+            </div>
+
+            <br />
+            <div class="form-group row">
+                <label asp-for="Description" class="col-sm-2 col-form-label">Description:</label>
+                <div class="col-sm-10">
+                    <input asp-for="Description" class="form-control" />
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+            </div>
+
+            <br />
+            <div class="form-group row">
+                <label asp-for="DateOpened" class="col-sm-2 col-form-label">Date Opened:</label>
+                <div class="col-sm-10">
+                    <input asp-for="DateOpened" class="form-control" />
+                    <span asp-validation-for="DateOpened" class="text-danger"></span>
+                </div>
+            </div>
+
+            <br />
+            <div class="form-group row">
+                <label asp-for="DateClosed" class="col-sm-2 col-form-label">Date Closed:</label>
+                <div class="col-sm-10">
+                    <input asp-for="DateClosed" class="form-control" />
+                </div>
+            </div>
+                
+
+
+            <br />
+            <div class="form-group">
+                <input type="submit" value="@ViewData["Title"]" class="btn btn-success" />
+                @if(title == "Create")
+                {
+                 <input type="reset" class="btn btn-danger" />   
+                }
+
+            </div>
+        </form>
+    </div>
+</div>
+
+<br />
+<div>
+    <a asp-action="Index" class="btn btn-secondary">Back to Incidents List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

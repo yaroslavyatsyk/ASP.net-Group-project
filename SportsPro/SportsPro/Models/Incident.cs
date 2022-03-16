@@ -6,13 +6,12 @@ namespace SportsPro.Models
     public class Incident
     {
         [Key]
-        public int IncidentId { get; set; }
+        public int IncidentId { get; set; } // gg
 
-        [Required]
+        [Required(ErrorMessage = "Test the name")]
         public string? Title { get; set; }   
 
         [Required]
-
         public int CustomerId { get; set; }
 
         [Required(ErrorMessage = "Please choose customer from dropdown")]
