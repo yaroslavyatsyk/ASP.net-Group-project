@@ -15,5 +15,6 @@ namespace SportsPro.Models
 
         public DbSet<Incident> Incidents { get; set; }
 
+        public DbSet<Registration> Registrations { get; set; }
     }
 }

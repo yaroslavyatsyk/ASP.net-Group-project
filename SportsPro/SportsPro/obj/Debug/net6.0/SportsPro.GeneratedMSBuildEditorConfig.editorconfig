@@ -8,11 +8,11 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SportsPro
 build_property.RootNamespace = SportsPro
-build_property.ProjectDir = C:\Users\Yaroslav\source\repos\Yaroslav9728\ASP.net-Group-project\SportsPro\SportsPro\
+build_property.ProjectDir = C:\Users\Yaroslav\Source\Repos\Yaroslav9728\ASP.net-Group-project\SportsPro\SportsPro\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Yaroslav\source\repos\Yaroslav9728\ASP.net-Group-project\SportsPro\SportsPro
+build_property.MSBuildProjectDirectory = C:\Users\Yaroslav\Source\Repos\Yaroslav9728\ASP.net-Group-project\SportsPro\SportsPro
 build_property._RazorSourceGeneratorDebug = 
 
 [C:/Users/Yaroslav/Source/Repos/Yaroslav9728/ASP.net-Group-project/SportsPro/SportsPro/Views/Customers/Create.cshtml]
