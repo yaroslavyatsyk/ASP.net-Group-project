@@ -48,6 +48,9 @@ namespace SportsPro.Controllers
         // GET: Customers/Create
         public IActionResult Create()
         {
+            List<string> countriesList = getCountries();
+            ViewBag.Countries = countriesList;
+           
             return View();
         }
 
