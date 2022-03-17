@@ -70,9 +70,13 @@ namespace SportsPro.Controllers
             return View(customer);
         }
 
+
         // GET: Customers/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
+            List<string> countriesList = getCountries();
+            ViewBag.Countries = countriesList;
+
             if (id == null)
             {
                 return NotFound();
