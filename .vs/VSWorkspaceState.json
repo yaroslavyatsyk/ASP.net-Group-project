@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\SportsPro",
+    "\\SportsPro\\SportsPro",
+    "\\SportsPro\\SportsPro\\Migrations"
   ],
-  "SelectedNode": "\\SportsPro.sln",
+  "SelectedNode": "\\SportsPro\\SportsPro\\Migrations\\20220316043341_Registration.cs",
   "PreviewInSolutionExplorer": false
 }

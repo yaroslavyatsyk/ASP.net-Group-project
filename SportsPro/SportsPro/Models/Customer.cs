@@ -32,7 +32,7 @@ namespace SportsPro.Models
         public string? Country{ get; set; }
 
         [Required(ErrorMessage = "Please enter email.")]
-        [DataType(DataType.EmailAddress)]
+        [DataType(DataType.EmailAddress, ErrorMessage = "Incorrect format")]
         [StringLength(50, MinimumLength = 1, ErrorMessage = "The First Name must have at least 1 character and not more than or equal 50")]
         
         public string? Email { get; set; }

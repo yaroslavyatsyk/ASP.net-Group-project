@@ -61,6 +61,7 @@ namespace SportsPro.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("CustomerId,FirstName,LastName,City,State,PostalCode,Country,Email,Phone")] Customer customer)
         {
+        
             if (ModelState.IsValid)
             {
                 _context.Add(customer);
