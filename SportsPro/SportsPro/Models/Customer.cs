@@ -43,5 +43,6 @@ namespace SportsPro.Models
         public string? Phone { get; set; }
 
         public string FullName => FirstName?.Replace(' ', '-') + " " + LastName?.Replace(' ', '-');
+
     }
 }

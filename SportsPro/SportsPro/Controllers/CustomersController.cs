@@ -2,10 +2,12 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using Newtonsoft.Json;
 using SportsPro.Models;
 
 namespace SportsPro.Controllers
@@ -149,5 +151,23 @@ namespace SportsPro.Controllers
         {
             return _context.Customers.Any(e => e.CustomerId == id);
         }
+
+        private List<string> getCountries()
+        {
+            var data = new WebClient().DownloadString("https://restcountries.com/v3.1/all");
+            dynamic json = JsonConvert.DeserializeObject(data);
+            List<string> listOfCountries = new List<string>();
+            foreach (var jsonObject in json)
+            {
+                if ((string)jsonObject.name.common != "Russia")
+                    listOfCountries.Add((string)jsonObject.name.common); // we imposed our own sanctions
+
+            }
+            listOfCountries.Sort();
+            return listOfCountries;
+        }
+
+
+
     }
 }

@@ -7,7 +7,7 @@ namespace SportsPro.Models
     public class Incident
     {
             [Key]
-            public int IncidentId { get; set; } // gg
+            public int IncidentId { get; set; } 
 
             [Required(ErrorMessage = "Test the name")]
             public string? Title { get; set; }
