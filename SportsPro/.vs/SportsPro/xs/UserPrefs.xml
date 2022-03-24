@@ -1,5 +1,11 @@
 ﻿<Properties StartupConfiguration="{93287263-5EA8-45FF-BCA7-292F9C3E03C3}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="SportsPro/Views/Home/About.cshtml">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SportsPro/appsettings.json">
     <Files>
       <File FileName="SportsPro/Controllers/HomeController.cs" Line="1" Column="1" />
       <File FileName="SportsPro/Models/Customer.cs" Line="1" Column="1" />
@@ -32,11 +38,5 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.SportsPro PreferredExecutionTarget="/Applications/Brave Browser.app" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
