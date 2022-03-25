@@ -18,29 +18,30 @@ public class HomeController : Controller
         return View();
     }
 
+    [Route("[action]")]
     public IActionResult Product()
     {
         return View();
     }
-
+    [Route("[action]")]
     public IActionResult Technician()
     {
         return View();
     }
 
-
+    [Route("[action]")]
     public IActionResult Customer()
     {
         return View();
     }
 
-
+    [Route("[action]")]
     public IActionResult Incident()
     {
         return View();
     }
 
-
+    [Route("[action]")]
     public IActionResult Registration()
     {
         return View();
