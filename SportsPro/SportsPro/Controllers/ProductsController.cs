@@ -58,9 +58,16 @@ namespace SportsPro.Controllers
         {
             if (ModelState.IsValid)
             {
+               
                 _context.Add(product);
-                await _context.SaveChangesAsync();
+                await _context.SaveChangesAsync(); 
+                TempData["Message"] = "Successfully added!";
                 return RedirectToAction(nameof(Index));
+            }
+            else
+            {
+                TempData["Message"] = "Something wrong, please try again!";
+             
             }
             return View(product);
         }
@@ -99,6 +106,7 @@ namespace SportsPro.Controllers
                 {
                     _context.Update(product);
                     await _context.SaveChangesAsync();
+                    
                 }
                 catch (DbUpdateConcurrencyException)
                 {
@@ -111,7 +119,13 @@ namespace SportsPro.Controllers
                         throw;
                     }
                 }
+                TempData["Message"] = "Successfully edited!";
                 return RedirectToAction(nameof(Index));
+            }
+            else
+            {
+                TempData["Message"] = "Something wrong, please try again!";
+                
             }
             return View(product);
         }
@@ -142,6 +156,7 @@ namespace SportsPro.Controllers
             var product = await _context.Products.FindAsync(id);
             _context.Products.Remove(product);
             await _context.SaveChangesAsync();
+            TempData["Message"] = "Successfully deleted!";
             return RedirectToAction(nameof(Index));
         }
 

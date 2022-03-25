@@ -6,6 +6,11 @@
 
 <h1>Product Manager Page</h1>
 
+@if (TempData["message"] != null)
+{
+    <div class="alert-info">@TempData["message"]</div>
+}
+
 <p>
     <a class="btn btn-primary" asp-action="Create">Add Product</a>
 </p>
