@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Yaroslav\\source\\repos\\Yaroslav9728\\ASP.net-Group-project\\SportsPro\\SportsPro\\SportsPro.csproj": {}
+    "C:\\Users\\Yaroslav\\Source\\Repos\\yaroslavyatsyk\\ASP.net-Group-project\\SportsPro\\SportsPro\\SportsPro.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Yaroslav\\source\\repos\\Yaroslav9728\\ASP.net-Group-project\\SportsPro\\SportsPro\\SportsPro.csproj": {
+    "C:\\Users\\Yaroslav\\Source\\Repos\\yaroslavyatsyk\\ASP.net-Group-project\\SportsPro\\SportsPro\\SportsPro.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yaroslav\\source\\repos\\Yaroslav9728\\ASP.net-Group-project\\SportsPro\\SportsPro\\SportsPro.csproj",
+        "projectUniqueName": "C:\\Users\\Yaroslav\\Source\\Repos\\yaroslavyatsyk\\ASP.net-Group-project\\SportsPro\\SportsPro\\SportsPro.csproj",
         "projectName": "SportsPro",
-        "projectPath": "C:\\Users\\Yaroslav\\source\\repos\\Yaroslav9728\\ASP.net-Group-project\\SportsPro\\SportsPro\\SportsPro.csproj",
+        "projectPath": "C:\\Users\\Yaroslav\\Source\\Repos\\yaroslavyatsyk\\ASP.net-Group-project\\SportsPro\\SportsPro\\SportsPro.csproj",
         "packagesPath": "C:\\Users\\Yaroslav\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yaroslav\\source\\repos\\Yaroslav9728\\ASP.net-Group-project\\SportsPro\\SportsPro\\obj\\",
+        "outputPath": "C:\\Users\\Yaroslav\\Source\\Repos\\yaroslavyatsyk\\ASP.net-Group-project\\SportsPro\\SportsPro\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

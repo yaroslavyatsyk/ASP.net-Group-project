@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sQOAIXzKVoCfA59AtuECAueZqGdpOsdwaLT8jAW11YC2X6L5jawDrGrUWilAQmq+4NmExih4rnQoWVAjXm9zOw==",
+  "dgSpecHash": "8mBmgZQsGdQqi8kK4ctsR+kKTKigt5JQZJJg5CqCRSuEOLOFDxznanvPguxpNYg3rv1DNU1268641TS9BzJQBw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Yaroslav\\source\\repos\\Yaroslav9728\\ASP.net-Group-project\\SportsPro\\SportsPro\\SportsPro.csproj",
+  "projectFilePath": "C:\\Users\\Yaroslav\\Source\\Repos\\yaroslavyatsyk\\ASP.net-Group-project\\SportsPro\\SportsPro\\SportsPro.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Yaroslav\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Yaroslav\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

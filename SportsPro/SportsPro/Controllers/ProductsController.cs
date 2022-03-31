@@ -56,18 +56,25 @@ namespace SportsPro.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("ProductId,ProductCode,Name,ReleaseDate,Price")] Product product)
         {
-            if (ModelState.IsValid)
+            if(product.ReleaseDate > DateTime.Today)
+            {
+                TempData["Message"] = "The date of release can not be than today's date!";
+                return RedirectToAction(nameof(Index));
+            }
+            else if (ModelState.IsValid)
             {
                
                 _context.Add(product);
                 await _context.SaveChangesAsync(); 
                 TempData["Message"] = "Successfully added!";
                 return RedirectToAction(nameof(Index));
+
             }
             else
             {
                 TempData["Message"] = "Something wrong, please try again!";
-             
+                return RedirectToAction(nameof(Index));
+
             }
             return View(product);
         }
