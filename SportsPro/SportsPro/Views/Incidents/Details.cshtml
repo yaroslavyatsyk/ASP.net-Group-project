@@ -20,7 +20,7 @@
             @Html.DisplayNameFor(model => model.Customer)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Customer.FullName)
+            @Html.DisplayFor(model => model.Customer.City)
         </dd>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.Product)
@@ -44,7 +44,7 @@
             @Html.DisplayNameFor(model => model.Technician)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Technician.FullName)
+            @Html.DisplayFor(model => model.Technician.Email)
         </dd>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.Description)
@@ -55,6 +55,6 @@
     </dl>
 </div>
 <div>
-    <a class="btn btn-primary" asp-action="Edit" asp-route-id="@Model?.IncidentId">Edit</a> |
-    <a class="btn btn-info" asp-action="Index">Back to List</a>
+    <a asp-action="Edit" asp-route-id="@Model?.IncidentId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
 </div>

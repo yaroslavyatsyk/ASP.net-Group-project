@@ -3,8 +3,10 @@
     "",
     "\\SportsPro",
     "\\SportsPro\\SportsPro",
-    "\\SportsPro\\SportsPro\\Controllers"
+    "\\SportsPro\\SportsPro\\Controllers",
+    "\\SportsPro\\SportsPro\\Views",
+    "\\SportsPro\\SportsPro\\Views\\Customers"
   ],
-  "SelectedNode": "\\SportsPro\\SportsPro\\Controllers\\CustomersController.cs",
+  "SelectedNode": "\\SportsPro\\SportsPro.sln",
   "PreviewInSolutionExplorer": false
 }

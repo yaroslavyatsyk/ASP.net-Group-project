@@ -12,23 +12,26 @@ namespace SportsPro.Models
             [Required(ErrorMessage = "Test the name")]
             public string? Title { get; set; }
 
-            [Required]
             [ForeignKey("Customer")]
             public int CustomerId { get; set; }
             public Customer? Customer { get; set; }
 
+
+ [Required(ErrorMessage = "Please choose product from dropdown")]
             [ForeignKey("Product")]
             public int ProductId { get; set; }
             public Product? Product { get; set; }
 
-            [Required(ErrorMessage = "Please choose product from dropdown")]
+           
 
-            public DateTime DateOpened { get; set; }
-            [Required(ErrorMessage = "Please choose date when incident was closed")]
-            public DateTime DateClosed { get; set; }
+        
+        [Required(ErrorMessage = "Test the open date")]
+        public DateTime DateOpened { get; set; }
+            
+            public DateTime? DateClosed { get; set; }
 
-            [ForeignKey("Technician")]
-            public int TechnicianId { get; set; }
+        [ForeignKey("Technician")]
+            public int? TechnicianId { get; set; }
 
             public Technician? Technician { get; set; }
 

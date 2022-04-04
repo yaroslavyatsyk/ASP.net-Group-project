@@ -22,7 +22,7 @@ namespace SportsPro.Migrations
                     PostalCode = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: false),
                     Country = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Email = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
-                    Phone = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                    Phone = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -53,7 +53,7 @@ namespace SportsPro.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     FirstName = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     LastName = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Email = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
                     Phone = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
@@ -97,8 +97,8 @@ namespace SportsPro.Migrations
                     CustomerId = table.Column<int>(type: "int", nullable: false),
                     ProductId = table.Column<int>(type: "int", nullable: false),
                     DateOpened = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    DateClosed = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    TechnicianId = table.Column<int>(type: "int", nullable: false),
+                    DateClosed = table.Column<DateTime>(type: "datetime2", nullable: true),
+                    TechnicianId = table.Column<int>(type: "int", nullable: true),
                     Description = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
@@ -120,8 +120,7 @@ namespace SportsPro.Migrations
                         name: "FK_Incidents_Technicianes_TechnicianId",
                         column: x => x.TechnicianId,
                         principalTable: "Technicianes",
-                        principalColumn: "TechnicianId",
-                        onDelete: ReferentialAction.Cascade);
+                        principalColumn: "TechnicianId");
                 });
 
             migrationBuilder.CreateIndex(
