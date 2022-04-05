@@ -7,6 +7,6 @@
     "\\SportsPro\\SportsPro\\Views",
     "\\SportsPro\\SportsPro\\Views\\Incidents"
   ],
-  "SelectedNode": "\\SportsPro\\SportsPro\\Controllers\\IncidentsController.cs",
+  "SelectedNode": "\\SportsPro\\SportsPro\\Views\\Incidents\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }
