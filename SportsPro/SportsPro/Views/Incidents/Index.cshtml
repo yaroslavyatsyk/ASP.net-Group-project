@@ -6,17 +6,12 @@
 
 <h1>@ViewData["Title"]</h1>
 
-<ul class="nav nav-pills">
-    <li class="nav-item">
-        <a class="nav-link" asp-action="Index">All Incidents</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link active" href="">Unassigned Incidents</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="">Open Incidents</a>
-    </li>
-</ul>
+<label for="selectoption">Select Option:</label>
+<select id="SelectOption" name="SelectOption">
+    <option value="All">All Incidents</option>
+    <option value="Opened">Opened Incidents</option>
+    <option value="UnAssigned">UnAssigned Incidents</option>
+</select>
 
 <br />
 <p>
