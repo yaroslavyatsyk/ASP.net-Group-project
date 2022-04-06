@@ -8,13 +8,13 @@
 
 <ul class="nav nav-pills">
     <li class="nav-item">
-        <a class="nav-link" href="#">All Incidents</a>
+        @Html.ActionLink("All Incidents", "Index","Incidents",new {search = "All"}, new {@class = "nav-link"})
     </li>
     <li class="nav-item">
-        <a class="nav-link active" href="#">Unassigned Incidents</a>
+        @Html.ActionLink("Opened", "Index","Incidents",new {search = "Opened"}, new {@class = "nav-link"})
     </li>
     <li class="nav-item">
-        <a class="nav-link" href="#">Open Incidents</a>
+        @Html.ActionLink("UnAssigned", "Index","Incidents",new {search = "UnAssigned"}, new {@class = "nav-link"})
     </li>
 </ul>
 
@@ -37,7 +37,9 @@
             <th>
                 @Html.DisplayNameFor(model => model.DateOpened)
             </th>
-           
+           <th>
+                @Html.DisplayNameFor(model => model.DateClosed)
+            </th>
             <th>
                 @Html.DisplayNameFor(model => model.Technician)
             </th>
@@ -63,10 +65,31 @@
                 <td>
                     @Html.DisplayFor(modelItem => item.DateOpened)
                 </td>
-                
-                <td>
-                    @Html.DisplayFor(modelItem => item.Technician.FullName)
-                </td>
+                @if (item.DateClosed != null)
+                {
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DateClosed)
+                    </td>
+                }
+                else
+                {
+                    <td>
+                        N/A
+                    </td>
+                }
+                @if (item.Technician != null)
+                {
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Technician.FullName)
+                    </td>
+                }
+                else
+                {
+                    <td>
+                        Unassigned 
+                    </td>
+                }
+
                 <td>
                     @Html.DisplayFor(modelItem => item.Description)
                 </td>

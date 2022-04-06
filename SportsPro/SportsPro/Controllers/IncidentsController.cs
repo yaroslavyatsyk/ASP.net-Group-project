@@ -20,9 +20,28 @@ namespace SportsPro.Controllers
         }
 
         // GET: Incidents
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string search)
         {
             var sportContext = _context.Incidents.Include(i => i.Customer).Include(i => i.Product).Include(i => i.Technician);
+
+
+            if (!string.IsNullOrEmpty(search))
+            {
+                if (search == "All")
+                {
+                    sportContext = _context.Incidents.Include(i => i.Customer).Include(i => i.Product).Include(i => i.Technician);
+                }
+                if(search == "Opened")
+                {
+                    sportContext = _context.Incidents.Where(i => i.DateClosed == null).Include(i => i.Customer).Include(i => i.Product).Include(i => i.Technician);
+                }
+                if(search == "UnAssigned")
+                {
+                    sportContext = _context.Incidents.Where(i => i.Technician == null).Include(i => i.Customer).Include(i => i.Product).Include(i => i.Technician);
+                }
+            }
+
+
             return View(await sportContext.ToListAsync());
         }
        
