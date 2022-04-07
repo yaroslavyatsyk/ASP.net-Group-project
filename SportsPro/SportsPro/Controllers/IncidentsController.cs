@@ -20,13 +20,11 @@ namespace SportsPro.Controllers
         }
 
         // GET: Incidents
-        public async Task<IActionResult> Index(string search)
+        public async Task<IActionResult> Index(string search = "All")
         {
             var sportContext = _context.Incidents.Include(i => i.Customer).Include(i => i.Product).Include(i => i.Technician);
 
 
-            if (!string.IsNullOrEmpty(search))
-            {
                 if (search == "All")
                 {
                     sportContext = _context.Incidents.Include(i => i.Customer).Include(i => i.Product).Include(i => i.Technician);
@@ -39,7 +37,6 @@ namespace SportsPro.Controllers
                 {
                     sportContext = _context.Incidents.Where(i => i.Technician == null).Include(i => i.Customer).Include(i => i.Product).Include(i => i.Technician);
                 }
-            }
 
 
             return View(await sportContext.ToListAsync());
