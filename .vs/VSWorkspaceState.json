@@ -6,8 +6,9 @@
     "\\SportsPro\\SportsPro\\Controllers",
     "\\SportsPro\\SportsPro\\Views",
     "\\SportsPro\\SportsPro\\Views\\Incidents",
-    "\\SportsPro\\SportsPro\\Views\\Registrations"
+    "\\SportsPro\\SportsPro\\Views\\Registrations",
+    "\\SportsPro\\SportsPro\\Views\\Shared"
   ],
-  "SelectedNode": "\\SportsPro\\SportsPro\\Views\\Incidents\\Index.cshtml",
+  "SelectedNode": "\\SportsPro\\SportsPro\\Views\\Shared\\_Layout.cshtml",
   "PreviewInSolutionExplorer": false
 }
